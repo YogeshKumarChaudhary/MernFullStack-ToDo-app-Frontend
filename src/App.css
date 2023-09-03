@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: serif;
+}
+.container{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #79155B;
+}
+.listContainer{
+  width: 70%;
+  /* height: 80vh; */
+  background-color: #C23373;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.486);
+  padding: 10px 0;
+  /* overflow: hidden; */
+}
+.listContainer h1{
+  font-size: 40px;
+  color: white;
+  background-color: #F6635C;
+  margin-bottom: 15px;
+}
+.listContainer input {
+  border: none;
+  outline: none;
+  font-size: 20px;
+  padding: 10px;
+  width: 90%;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.listContainer button{
+  margin-left: 15px;
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  transition: all 200ms ease-in;
+}
+.listContainer button:hover{
+  background-color: green;
+  color: white;
+}
+
+/* ListItems css */
+.listItems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block: 10px;
+  width: 100%;
+  padding: 10px;
+  background-color: #79155B;
+}
+.listItems li {
+  list-style: none;
+  font-size: 25px;
+  font-weight: 500;
+  color: #d7d561;
+  margin-left: 20px;
+}
+.listItems button{
+  font-size: 15px;
+  padding: 5px 10px;
+  transition: all 200ms ease-in;
+}
+.listItems .editBtn:hover {
+  background-color: gray;
+}
+.listItems button:hover{
+  background-color: red;
+}
